@@ -1,0 +1,35 @@
+li {
+    color: yellow;
+}
+
+ol li {
+    color: green;
+}
+
+ol>li {
+    color: purple;
+}
+
+li.myclass {
+    color: red;
+}
+
+li.myclass~li {
+    color: blue;
+}
+
+li.myclass+li {
+    color: orange;
+}
+
+#item1 {
+    color: paleturquoise;
+}
+
+img[alt] {
+    background-color: rebeccapurple;
+}
+
+a[href$=sd] {
+    text-decoration: overline;
+}
